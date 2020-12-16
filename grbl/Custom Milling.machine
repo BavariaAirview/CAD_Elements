@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>ChinaCnc</vendor>
+
+  <model>3040T</model>
+
+  <description>Generic 3-axis</description>
+
+  <control>Grbl</control>
+
+  <machining additive="no" jet="no" milling="yes" turning="no"/>
+
+  <dimensions depth="400mm" height="480mm" weight="25kg" width="400mm"/>
+
+  <capacities depth="385mm" height="60mm" weight="6kg" width="275mm"/>
+
+  <png128></png128>
+
+  <mtk></mtk>
+
+  <fusion>
+    <model></model>
+  </fusion>
+
+  <custom>
+    <name></name>
+    <softwareVersion></softwareVersion>
+    <network ip="" port="" protocol=""/>
+    <serial></serial>
+  </custom>
+
+  <coolant options=""/>
+
+  <multiAxis adjust="yes" angle="10deg" cone="3deg" feedRateType="inverse" linearizationTolerance="0.040000000000000001mm" method="off" reconfigure="no" tolerance="0.040000000000000001mm"/>
+
+  <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="100" toolChanger="yes" toolPreload="yes"/>
+
+  <machiningTime ratio="1" toolChangeTime="45s"/>
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="2750mm/min" workOffsets="100"/>
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" wcs="0mm 0mm 0mm">
+    <machineAssembly></machineAssembly>
+  </simulation>
+
+  <post>
+    <postProcessor>system://grbl.cps</postProcessor>
+    <postProperties>
+      <Parameters/>
+    </postProperties>
+    <setupSheet></setupSheet>
+    <setupSheetProperties/>
+  </post>
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="table" maximumFeed="4000mm/min" name="" offset="0mm 0mm 0mm" rapidFeed="2500mm/min" resolution="0.050000000000000003mm"/>
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="table" maximumFeed="4000mm/min" name="" offset="0mm 0mm 0mm" rapidFeed="2500mm/min" resolution="0.050000000000000003mm"/>
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="table" maximumFeed="3000mm/min" name="" offset="0mm 0mm 0mm" rapidFeed="2500mm/min" resolution="0.050000000000000003mm"/>
+
+  <spindle axis="0 0 1" maximumSpeed="8100rpm" minimumSpeed="1200rpm">
+    <description>Spindel 400W</description>
+  </spindle>
+
+</machine>
