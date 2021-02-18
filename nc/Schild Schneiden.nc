@@ -1,0 +1,580 @@
+(Schild Schneiden)
+(T5  D=3.175 CR=0 - ZMIN=-1 - Schaftfraser)
+G90 G94
+G17
+G21
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+G28 G91 Z0
+G90
+
+(2D-Kontur3)
+T5
+S8000 M3
+G54
+G0 X-7.46 Y-12.138
+Z15
+G1 Z5 F1000
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-7.778 Z-0.5 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-12 Y-51.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-23 Y-8.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-8.095 Y-12.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-12.138
+Z1 F333.3
+Z-0.683
+G3 X-7.778 Z-1 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-12 Y-51.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-23 Y-8.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-8.095 Y-12.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-32.46 Y-12.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-32.778 Z-0.5 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-37 Y-51.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-48 Y-8.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-33.095 Y-12.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-12.138
+Z1 F333.3
+Z-0.683
+G3 X-32.778 Z-1 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-37 Y-51.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-48 Y-8.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-33.095 Y-12.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-57.46 Y-12.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-57.778 Z-0.5 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-62 Y-51.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-73 Y-8.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-58.095 Y-12.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-12.138
+Z1 F333.3
+Z-0.683
+G3 X-57.778 Z-1 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-12.455 I0 J-0.318
+G1 Y-48
+G2 X-62 Y-51.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-48 I0 J3.588
+G1 Y-12
+G2 X-73 Y-8.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-12 I0 J-3.587
+G1 Y-12.455
+G3 X-58.095 Y-12.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-7.46 Y-59.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-7.778 Z-0.5 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-12 Y-98.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-23 Y-55.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-8.095 Y-59.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-59.138
+Z1 F333.3
+Z-0.683
+G3 X-7.778 Z-1 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-12 Y-98.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-23 Y-55.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-8.095 Y-59.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-32.46 Y-59.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-32.778 Z-0.5 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-37 Y-98.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-48 Y-55.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-33.095 Y-59.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-59.138
+Z1 F333.3
+Z-0.683
+G3 X-32.778 Z-1 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-37 Y-98.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-48 Y-55.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-33.095 Y-59.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-57.46 Y-59.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-57.778 Z-0.5 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-62 Y-98.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-73 Y-55.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-58.095 Y-59.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-59.138
+Z1 F333.3
+Z-0.683
+G3 X-57.778 Z-1 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-59.455 I0 J-0.318
+G1 Y-95
+G2 X-62 Y-98.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-95 I0 J3.588
+G1 Y-59
+G2 X-73 Y-55.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-59 I0 J-3.587
+G1 Y-59.455
+G3 X-58.095 Y-59.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-7.46 Y-106.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-7.778 Z-0.5 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-12 Y-145.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-23 Y-102.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-8.095 Y-106.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-106.138
+Z1 F333.3
+Z-0.683
+G3 X-7.778 Z-1 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-12 Y-145.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-23 Y-102.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-8.095 Y-106.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-32.46 Y-106.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-32.778 Z-0.5 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-37 Y-145.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-48 Y-102.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-33.095 Y-106.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-106.138
+Z1 F333.3
+Z-0.683
+G3 X-32.778 Z-1 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-37 Y-145.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-48 Y-102.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-33.095 Y-106.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-57.46 Y-106.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-57.778 Z-0.5 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-62 Y-145.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-73 Y-102.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-58.095 Y-106.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-106.138
+Z1 F333.3
+Z-0.683
+G3 X-57.778 Z-1 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-106.455 I0 J-0.318
+G1 Y-142
+G2 X-62 Y-145.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-142 I0 J3.588
+G1 Y-106
+G2 X-73 Y-102.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-106 I0 J-3.587
+G1 Y-106.455
+G3 X-58.095 Y-106.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-7.46 Y-153.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-7.778 Z-0.5 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-12 Y-192.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-23 Y-149.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-8.095 Y-153.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-153.138
+Z1 F333.3
+Z-0.683
+G3 X-7.778 Z-1 I-0.318 K0 F1000
+G1 X-8.095
+G17 G3 X-8.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-12 Y-192.588 I-3.587 J0
+G1 X-23
+G2 X-26.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-23 Y-149.413 I3.587 J0
+G1 X-12
+G2 X-8.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-8.095 Y-153.773 I0.318 J0
+G1 X-7.778
+G18 G2 X-7.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-32.46 Y-153.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-32.778 Z-0.5 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-37 Y-192.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-48 Y-149.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-33.095 Y-153.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-153.138
+Z1 F333.3
+Z-0.683
+G3 X-32.778 Z-1 I-0.318 K0 F1000
+G1 X-33.095
+G17 G3 X-33.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-37 Y-192.588 I-3.587 J0
+G1 X-48
+G2 X-51.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-48 Y-149.413 I3.587 J0
+G1 X-37
+G2 X-33.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-33.095 Y-153.773 I0.318 J0
+G1 X-32.778
+G18 G2 X-32.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur3)
+G0 X-57.46 Y-153.138
+G1 Z15 F1000
+Z5
+Z1.5 F333.3
+Z-0.183
+G18 G3 X-57.778 Z-0.5 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-62 Y-192.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-73 Y-149.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-58.095 Y-153.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.183 I0 K0.317
+G1 Z5
+Y-153.138
+Z1 F333.3
+Z-0.683
+G3 X-57.778 Z-1 I-0.318 K0 F1000
+G1 X-58.095
+G17 G3 X-58.413 Y-153.455 I0 J-0.318
+G1 Y-189
+G2 X-62 Y-192.588 I-3.587 J0
+G1 X-73
+G2 X-76.587 Y-189 I0 J3.588
+G1 Y-153
+G2 X-73 Y-149.413 I3.587 J0
+G1 X-62
+G2 X-58.413 Y-153 I0 J-3.587
+G1 Y-153.455
+G3 X-58.095 Y-153.773 I0.318 J0
+G1 X-57.778
+G18 G2 X-57.46 Z-0.683 I0 K0.317
+G1 Z15
+G17
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
+M5
+M30
