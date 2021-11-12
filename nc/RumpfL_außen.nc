@@ -1,4 +1,4 @@
-(RumpfL_au?en)
+(1001)
 (Bearbeiten)
 (  Hersteller: ChinaCnc)
 (  model: 3040T)
@@ -7,17 +7,22 @@
 G90 G94
 G17
 G21
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
 G28 G91 Z0
 G90
 
 (2D Adaptive16)
 T5
-S5000 M3
+S6000 M3
 G54
 G0 X-161.024 Y70.045
-Z15
-Z5
+Z4
+G1 Z2.51 F1000
 Z2.5
+S5000
 G3 X-160.261 Y67.127 Z2.335 I0.381 J-1.459 F333.3
 X-161.024 Y70.045 Z2.169 I-0.381 J1.459
 X-160.261 Y67.127 Z2.004 I0.381 J-1.459
@@ -1381,10 +1386,10 @@ X-147.902 Y80.011
 X-148.089 Y80.105
 X-148.295 Y80.143
 X-150.006 Y80.212
-G0 Z5
+Z2.51
 X-168.969 Y80.369
 Z-6.365
-G1 Z-6.682 F1000
+Z-6.682
 X-168.976 Y80.373 Z-6.753
 X-168.996 Y80.385 Z-6.82
 X-169.028 Y80.405 Z-6.88
@@ -7700,7 +7705,7 @@ X-93.433 Y70.846 Z-6.88
 X-93.421 Y70.811 Z-6.82
 X-93.414 Y70.788 Z-6.753
 X-93.411 Y70.781 Z-6.682
-G0 Z15
+Z4
 G28 G91 Z0
 G90
 G28 G91 X0 Y0
