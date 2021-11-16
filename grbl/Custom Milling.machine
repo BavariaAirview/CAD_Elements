@@ -9,30 +9,34 @@
 
   <control>Grbl</control>
 
-  <machining additive="no" jet="no" milling="yes" turning="no"/>
+  <machining additive="no" inspection="no" jet="no" milling="yes" turning="no"/>
 
   <dimensions depth="400mm" height="480mm" weight="25kg" width="400mm"/>
 
-  <capacities depth="385mm" height="60mm" weight="6kg" width="275mm"/>
+  <capacities depth="275mm" height="60mm" weight="6kg" width="385mm"/>
 
   <png128></png128>
 
   <mtk></mtk>
+
+  <controllerConfigurations></controllerConfigurations>
 
   <fusion>
     <model></model>
   </fusion>
 
   <custom>
+    <data></data>
     <name></name>
     <softwareVersion></softwareVersion>
     <network ip="" port="" protocol=""/>
+    <machine_connector baudRate="115200" bits="7" connectionMethod="Ethernet(TCP/IP)" dataBufferEthernet="10100" dataBufferSerial="100" flow="XON/XOFF" ident="" parity="Even" path="" port="1" stopBits="1"/>
     <serial></serial>
   </custom>
 
   <coolant options=""/>
 
-  <multiAxis adjust="yes" angle="10deg" cone="3deg" feedRateType="inverse" linearizationTolerance="0.040000000000000001mm" method="off" reconfigure="no" tolerance="0.040000000000000001mm"/>
+  <multiAxis adjust="yes" angle="10deg" bpwRatio="1" cone="3deg" feedrateMethod="fpm" feedrateType="combination" linearizationTolerance="0.040000000000000001mm" maximumFeedrate="9999.9899999999998" method="off" outputTolerance="0.5mm" reconfigure="no" safePlungeFeedrate="250mm/min" safeRetractDistance="25mm" safeRetractFeedrate="500mm/min" stockExpansion="2.5mm 2.5mm 2.5mm" tolerance="0.040000000000000001mm" virtualToolTip="no"/>
 
   <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="100" toolChanger="yes" toolPreload="yes"/>
 
@@ -40,7 +44,7 @@
 
   <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="2750mm/min" workOffsets="100"/>
 
-  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" wcs="0mm 0mm 0mm">
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" tableAttachPoint="0mm 0mm 0mm" toolAttachPoint="0mm 0mm 0mm" wcs="0mm 0mm 0mm">
     <machineAssembly></machineAssembly>
   </simulation>
 
