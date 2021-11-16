@@ -1,5 +1,4 @@
 (1001)
-(T16  D=6 CR=0 - ZMIN=-30.2 - Schaftfraser)
 G90 G94
 G17
 G21
@@ -7,16 +6,13 @@ G21
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
 (moves are available with a Fusion 360 Subscription.)
-G28 G91 Z0
-G90
 
 (Bohrfrasen2)
-T16
 S4000 M3
 G54
 G0 X0 Y0
 Z4
-G1 Z1.4 F1000
+G1 Z2 F1000
 Z0
 X-0.05 Y0.05
 X-0.075 Y0.043
@@ -503,9 +499,5 @@ X0.018 Y-0.085
 X0.032 Y-0.063
 X0 Y0
 Z4
-G28 G91 Z0
-G90
-G28 G91 X0 Y0
-G90
 M5
 M30
