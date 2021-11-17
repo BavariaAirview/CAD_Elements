@@ -12,7 +12,7 @@ G21
 (moves, which can increase machining time. Unrestricted rapid)
 (moves are available with a Fusion 360 Subscription.)
 
-(Bohrfrasen2)
+(Bohrfrasen5)
 T16
 S6000 M3
 G54
