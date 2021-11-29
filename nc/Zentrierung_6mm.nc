@@ -7,10 +7,8 @@
 G90 G94
 G17
 G21
-(When using Fusion 360 for Personal Use, the feedrate of)
-(rapid moves is reduced to match the feedrate of cutting)
-(moves, which can increase machining time. Unrestricted rapid)
-(moves are available with a Fusion 360 Subscription.)
+G28 G91 Z0
+G90
 
 (Bohrfrasen5)
 T16
@@ -18,8 +16,8 @@ S6000 M3
 G54
 G0 X0 Y0
 Z5
-G1 Z2 F1000
-Z0
+Z2
+G1 Z0 F1000
 X-0.025 Y0.025
 X-0.043 Y0.018
 X-0.05 Y0
@@ -196,6 +194,10 @@ X-0.04 Y-0.029 I-0.04 J-0.029
 G1 X-0.024 Y-0.039
 X-0.006 Y-0.035
 X0 Y0
-Z5
+G0 Z5
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
 M5
 M30

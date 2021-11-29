@@ -1,19 +1,23 @@
 (1001)
+(Bearbeiten)
+(  Hersteller: ChinaCnc)
+(  model: 3040T)
+(  description: Generic 3-axis)
+(T5  D=3.175 CR=0 - ZMIN=-4.3 - Schaftfraser)
 G90 G94
 G17
 G21
-(When using Fusion 360 for Personal Use, the feedrate of)
-(rapid moves is reduced to match the feedrate of cutting)
-(moves, which can increase machining time. Unrestricted rapid)
-(moves are available with a Fusion 360 Subscription.)
+G28 G91 Z0
+G90
 
 (2D-Kontur15)
+T5
 S6000 M3
 G54
 G0 X-115.879 Y-18.483
 Z15
-G1 Z5 F1000
-Z3 F333.3
+Z5
+G1 Z3 F333.3
 Z-1.683
 G18 G2 X-115.562 Z-2 I0.317 K0 F1000
 G1 X-115.244
@@ -26,9 +30,9 @@ Y-18.166
 G3 X-115.244 Y-17.848 I-0.318 J0
 G1 X-115.562
 G18 G3 X-115.879 Z-1.683 I0 K0.317
-G1 Z5
+G0 Z5
 Y-18.483
-Z1 F333.3
+G1 Z1 F333.3
 Z-2.833
 G2 X-115.562 Z-3.15 I0.317 K0 F1000
 G1 X-115.244
@@ -41,9 +45,9 @@ Y-18.166
 G3 X-115.244 Y-17.848 I-0.318 J0
 G1 X-115.562
 G18 G3 X-115.879 Z-2.833 I0 K0.318
-G1 Z5
+G0 Z5
 Y-18.483
-Z-0.15 F333.3
+G1 Z-0.15 F333.3
 Z-3.983
 G2 X-115.562 Z-4.3 I0.317 K0 F1000
 G1 X-115.244
@@ -56,18 +60,14 @@ Y-18.166
 G3 X-115.244 Y-17.848 I-0.318 J0
 G1 X-115.562
 G18 G3 X-115.879 Z-3.983 I0 K0.318
-G1 Z15
+G0 Z15
 G17
-(When using Fusion 360 for Personal Use, the feedrate of)
-(rapid moves is reduced to match the feedrate of cutting)
-(moves, which can increase machining time. Unrestricted rapid)
-(moves are available with a Fusion 360 Subscription.)
 
 (2D-Kontur16)
 G0 X-165.419 Y-22.719
-G1 Z15 F1000
+Z15
 Z5
-Z2.8 F333.3
+G1 Z2.8 F333.3
 Z-1.483
 G18 G2 X-165.102 Z-1.8 I0.318 K0 F1000
 G1 X-164.784
@@ -588,9 +588,9 @@ G1 Y-22.401
 G3 X-164.784 Y-22.084 I-0.317 J0
 G1 X-165.102
 G18 G3 X-165.419 Z-1.483 I0 K0.317
-G1 Z5
+G0 Z5
 Y-22.719
-Z1 F333.3
+G1 Z1 F333.3
 Z-3.283
 G2 X-165.102 Z-3.6 I0.318 K0 F1000
 G1 X-164.784
@@ -1123,9 +1123,9 @@ G1 Y-22.401
 G3 X-164.784 Y-22.084 I-0.317 J0
 G1 X-165.102
 G18 G3 X-165.419 Z-3.283 I0 K0.317
-G1 Z5
+G0 Z5
 Y-22.719
-Z-0.8 F333.3
+G1 Z-0.8 F333.3
 Z-3.983
 G2 X-165.102 Z-4.3 I0.318 K0 F1000
 G1 X-164.784
@@ -1658,7 +1658,11 @@ G1 Y-22.401
 G3 X-164.784 Y-22.084 I-0.317 J0
 G1 X-165.102
 G18 G3 X-165.419 Z-3.983 I0 K0.318
-G1 Z15
+G0 Z15
 G17
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
 M5
 M30
