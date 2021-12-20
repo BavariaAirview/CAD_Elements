@@ -1,0 +1,7 @@
+#!/bin/bash
+cd CAD_Elements
+git init
+git pull
+# git clone https://github.com/BavariaAirview/CAD_Elements.git
+cp CAD_Elements/Gcode/* .octoprint/uploads/GitDruck
+cd --
