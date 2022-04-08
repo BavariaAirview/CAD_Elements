@@ -1,12 +1,12 @@
 (Bottom_Bohren_3-175)
-(T5  D=3.175 CR=0 - ZMIN=-2.2 - Schaftfraser)
+(T17  D=3.175 CR=0 - ZMIN=-2.2 - Schaftfraser)
 G90 G94
 G17
 G21
 
 (Bohrfrasen8)
-T5
-S6000 M3
+T17
+S5000 M3
 G54
 G0 X-15.919 Y-89.077
 Z15
