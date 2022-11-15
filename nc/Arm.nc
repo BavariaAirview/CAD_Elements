@@ -17,7 +17,7 @@ T5
 S6000 M3
 G54
 G0 X-11.669 Y0.078
-Z31
+Z46
 G1 Z17.683 F1000
 Z16
 Y-0.081
@@ -68,7 +68,7 @@ X-11.653 Y0.135
 X-11.669 Y0.108
 X-11.673 Y0.076
 X-11.664 Y-0.082
-Z21
+Z41
 X-56.669 Y0.078
 Z17.683
 Z16
@@ -120,7 +120,7 @@ X-56.653 Y0.135
 X-56.669 Y0.108
 X-56.673 Y0.076
 X-56.664 Y-0.082
-Z21
+Z41
 X-206.669 Y0.078
 Z17.683
 Z16
@@ -172,7 +172,7 @@ X-206.653 Y0.135
 X-206.669 Y0.108
 X-206.673 Y0.076
 X-206.664 Y-0.082
-Z31
+Z46
 (When using Fusion 360 for Personal Use, the feedrate of)
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
@@ -180,7 +180,7 @@ Z31
 
 (Bohrfrasen3)
 G0 X-11.669 Y0.078
-G1 Z31 F1000
+G1 Z46 F1000
 Z3.423
 Z1.74
 Y-0.081
@@ -231,7 +231,7 @@ X-11.653 Y0.135
 X-11.669 Y0.108
 X-11.673 Y0.076
 X-11.664 Y-0.082
-Z21
+Z41
 X-56.669 Y0.078
 Z3.423
 Z1.74
@@ -283,7 +283,7 @@ X-56.653 Y0.135
 X-56.669 Y0.108
 X-56.673 Y0.076
 X-56.664 Y-0.082
-Z21
+Z41
 X-206.669 Y0.078
 Z3.423
 Z1.74
@@ -335,7 +335,7 @@ X-206.653 Y0.135
 X-206.669 Y0.108
 X-206.673 Y0.076
 X-206.664 Y-0.082
-Z31
+Z46
 (When using Fusion 360 for Personal Use, the feedrate of)
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
@@ -343,7 +343,7 @@ Z31
 
 (2D-Kontur1)
 G0 X-71.175 Y2.386
-G1 Z31 F1000
+G1 Z46 F1000
 Z21
 Z18 F333.3
 Z17
@@ -1423,7 +1423,7 @@ X-71.208 Y-3.291
 X-71.185 Y-3.145
 X-71.175 Y-2.958
 Y0.786
-Z31
+Z46
 (When using Fusion 360 for Personal Use, the feedrate of)
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
@@ -1431,7 +1431,7 @@ Z31
 
 (2D-Kontur2)
 G0 X-248.176 Y-9
-G1 Z31 F1000
+G1 Z46 F1000
 Z21
 Z18 F333.3
 Z17
@@ -1536,6 +1536,6 @@ S5000
 Y-9 Z-0.4 F333.3
 S6000
 Y9 F1000
-Z31
+Z46
 M5
 M30
