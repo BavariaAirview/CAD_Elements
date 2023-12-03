@@ -1,0 +1,129 @@
+(Stufe)
+(Bearbeiten)
+(  Hersteller: ChinaCnc)
+(  model: 3040T)
+(  description: Generic 3-axis)
+(T14 D=1.5 CR=0 - ZMIN=-4.3 - Schaftfrser)
+G90 G94
+G17
+G21
+(-Attention- Property Safe Retracts is set to Clearance Height.)
+(Ensure the clearance height will clear the part and or fixtures.)
+(Raise the Z-axis to a safe height before starting the program.)
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D-Kontur2)
+M0
+(MANUAL TOOL CHANGE TO T14)
+S6000 M3
+G17 G90 G94
+G54
+G0 X-46.2 Y-195.15
+Z15
+G1 Z5 F600
+Z0.3 F300
+Z-1.85
+X-46.193 Z-1.896 F400
+X-46.171 Z-1.938
+X-46.138 Z-1.971
+X-46.096 Z-1.993
+X-46.05 Z-2
+X-45.9
+X-45.854 Y-195.143
+X-45.812 Y-195.121
+X-45.779 Y-195.088
+X-45.757 Y-195.046
+X-45.75 Y-195
+Y-15 F600
+G2 X-45 Y-14.25 I0.75 J0
+G1 X-5
+G2 X-4.25 Y-15 I0 J-0.75
+G1 Y-195
+G2 X-5 Y-195.75 I-0.75 J0
+G1 X-45
+G2 X-45.75 Y-195 I0 J0.75
+G1 X-45.757 Y-194.954
+X-45.779 Y-194.912
+X-45.812 Y-194.879
+X-45.854 Y-194.857
+X-45.9 Y-194.85
+X-46.05
+X-46.096 Z-1.993
+X-46.138 Z-1.971
+X-46.171 Z-1.938
+X-46.193 Z-1.896
+X-46.2 Z-1.85
+Z5
+Y-195.15
+Z-1.7 F300
+Z-3
+X-46.193 Z-3.046 F400
+X-46.171 Z-3.088
+X-46.138 Z-3.121
+X-46.096 Z-3.143
+X-46.05 Z-3.15
+X-45.9
+X-45.854 Y-195.143
+X-45.812 Y-195.121
+X-45.779 Y-195.088
+X-45.757 Y-195.046
+X-45.75 Y-195
+Y-15 F600
+G2 X-45 Y-14.25 I0.75 J0
+G1 X-5
+G2 X-4.25 Y-15 I0 J-0.75
+G1 Y-195
+G2 X-5 Y-195.75 I-0.75 J0
+G1 X-45
+G2 X-45.75 Y-195 I0 J0.75
+G1 X-45.757 Y-194.954
+X-45.779 Y-194.912
+X-45.812 Y-194.879
+X-45.854 Y-194.857
+X-45.9 Y-194.85
+X-46.05
+X-46.096 Z-3.143
+X-46.138 Z-3.121
+X-46.171 Z-3.088
+X-46.193 Z-3.046
+X-46.2 Z-3
+Z5
+Y-195.15
+Z-2.85 F300
+Z-4.15
+X-46.193 Z-4.196 F400
+X-46.171 Z-4.238
+X-46.138 Z-4.271
+X-46.096 Z-4.293
+X-46.05 Z-4.3
+X-45.9
+X-45.854 Y-195.143
+X-45.812 Y-195.121
+X-45.779 Y-195.088
+X-45.757 Y-195.046
+X-45.75 Y-195
+Y-15 F600
+G2 X-45 Y-14.25 I0.75 J0
+G1 X-5
+G2 X-4.25 Y-15 I0 J-0.75
+G1 Y-195
+G2 X-5 Y-195.75 I-0.75 J0
+G1 X-45
+G2 X-45.75 Y-195 I0 J0.75
+G1 X-45.757 Y-194.954
+X-45.779 Y-194.912
+X-45.812 Y-194.879
+X-45.854 Y-194.857
+X-45.9 Y-194.85
+X-46.05
+X-46.096 Z-4.293
+X-46.138 Z-4.271
+X-46.171 Z-4.238
+X-46.193 Z-4.196
+X-46.2 Z-4.15
+Z15
+M5
+M30
