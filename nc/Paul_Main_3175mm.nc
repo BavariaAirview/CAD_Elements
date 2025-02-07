@@ -1,4 +1,4 @@
-(Paul_Main_3175mm)
+(Main_3175mm)
 (T5 D=3.175 CR=0 - ZMIN=-2.3 - Schaftfrser)
 G90 G94
 G17
