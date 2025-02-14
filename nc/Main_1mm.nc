@@ -3,13 +3,12 @@
 G90 G94
 G17
 G21
-(-Attention- Property Safe Retracts is set to Clearance Height.)
-(Ensure the clearance height will clear the part and or fixtures.)
-(Raise the Z-axis to a safe height before starting the program.)
 (When using Fusion for Personal Use, the feedrate of rapid)
 (moves is reduced to match the feedrate of cutting moves,)
 (which can increase machining time. Unrestricted rapid moves)
 (are available with a Fusion Subscription.)
+G28 G91 Z0
+G90
 
 (Bohrfrsen3)
 T21
@@ -34826,5 +34825,9 @@ X-50.568 Y-96.436 Z-0.638
 X-50.563 Y-96.43 Z-0.6
 Z15
 
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
 M5
 M30
